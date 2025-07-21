@@ -2,6 +2,15 @@
 src/
 src/**/*.ts
 src/**/*.tsx
+public/
+public/*png
+public/*jpg
+public/*jpeg
+public/*gif
+public/**/*png
+public/**/*jpg
+public/**/*jpeg
+public/**/*gif
 
 # Ignore config files
 tsconfig.json

@@ -144,7 +144,7 @@ This project is licensed under the [MIT License](./LICENSE).
 <br>
 <div align="center">
 
-# Made with ❤️ by [Al amin](https://github.com/al-amin-2004)
+## Made with ❤️ by [Al amin](https://github.com/al-amin-2004)
 
 [⭐ Star this repo](https://github.com/al-amin-2004/sendix) | [🐛 Report Bug](https://github.com/al-amin-2004/sendix/issues) | [💡 Request Feature](https://github.com/al-amin-2004/sendix/issues)
 

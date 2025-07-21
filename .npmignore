@@ -1,0 +1,33 @@
+# Ignore source code
+src/
+src/**/*.ts
+src/**/*.tsx
+
+# Ignore config files
+tsconfig.json
+rollup.config.js
+jest.config.js
+.eslintrc*
+.prettierrc*
+.rpt2_cache/
+
+# Ignore test files
+__tests__/
+*.test.ts
+*.spec.ts
+
+# Ignore system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
+
+# Ignore docs and examples if you don’t want to publish
+example/
+examples/
+docs/
+README-dev.md
+
+# Ignore logs
+*.log

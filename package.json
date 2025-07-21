@@ -1,0 +1,45 @@
+{
+  "name": "sendix",
+  "version": "1.0.0",
+  "description": "A lightweight scheduler with mail sender library built with Node.js and TypeScript",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "scheduler",
+    "nodemailer",
+    "email",
+    "smtp",
+    "mail",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "Al Amin <alaminmridha2004@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/al-amin-2004/sendix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/al-amin-2004/sendix/issues"
+  },
+  "homepage": "https://github.com/al-amin-2004/sendix#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.4",
+    "@types/nodemailer": "^6.4.17",
+    "rollup": "^4.45.1",
+    "rollup-plugin-dts": "^6.2.1",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "nodemailer": "^7.0.5"
+  }
+}

@@ -1,4 +1,8 @@
 # 📭 Sendix
+    
+![al-amin-2004](https://github.com/al-amin-2004/sendix/blob/main/public/sendix.png)
+
+---
 
 A powerful and developer-friendly notification scheduler built with TypeScript. Easily schedule and send Emails with full control and flexibility.
 
@@ -20,18 +24,16 @@ A powerful and developer-friendly notification scheduler built with TypeScript. 
 
 ### 📦 Installation
 ---
+npm
 ```bash
-# npm
 npm install sendix
 ```
-or
+yarn
 ```bash
-# yarn
 yarn add sendix
 ```
-or
+bun
 ```bash
-# bun
 bun add sendix
 ```
 
@@ -41,18 +43,18 @@ bun add sendix
 ---
 
 ```javascript
-# commonJS
+// commonJS
 const { sendix } = require("sendix");
 ```
-
+or
 ```javascript
-# ES6
+// ES6
 import { sendix } from 'sendix';
 ```
 
 
 ```javascript
-# Besic Example
+// Besic Example
 
 sendix({
     type: "now",
@@ -114,6 +116,21 @@ sendix({
     }
 })
 ```
+
+---
+
+---
+
+### 📘 Advanced Usage & Full Configuration ("Coming soon...")
+
+Looking for more advanced use-cases like:
+- Custom SMTP configuration
+- Dynamic template sending
+- Schedule emails for future delivery
+- Daily, weekly, monthky, yearly or event-based reminders
+
+👉 Visit the official documentation:  
+🔗 [https://sendix.app](https://sendix.vercel.app)
 
 ---
 
